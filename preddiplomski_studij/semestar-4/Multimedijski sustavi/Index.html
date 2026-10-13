@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Moja poslovna web stranica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"   />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+
+
+
+  <style>
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+
+      height: auto;
+      width: 300px;
+    }
+
+    .fakeimg {
+      height: 200px;
+      background-color: gray;
+    }
+
+    .ikona {
+      height: 70px;
+      width: auto;
+    }
+
+    .moji-podnaslovi {
+
+      font-family: 'Inter', sans-serif;
+    }
+
+    .moji-tekstovi {
+
+      font-family: Dancing Script;
+    }
+
+    .moj-naslov {
+
+      font-family: Regular;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <img src="Slike/grb-1.png" style="width:40px; height:auto;" />
+      <a class="navbar-brand" href="#" style="margin-left: 10px;"><b>Grad Daruvar</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Index.html">Početna<span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Popularne_lokacije.html">Popularne lokacije</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Dogadjanja.html">Događaji</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Vodic_kroz_grad.html">Vodić kroz grad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Smještaj.html">Smještaj</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Kontaki.html">Kontakti</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="Slike/siroka1.jpg " alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Slike/siroka2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Slike/siroka 3.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+
+      <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1 class="moj-naslov">Otkrij ljepote Daruvara!</h1>
+        <p class="moji-tekstovi">Daruvar je maleni grad smješten u srcu Hrvatske poznat po svojim termalnim izvorima,
+          ljekovitoj vodi i bogatoj povijesti.</p>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image-container">
+              <img src="Slike/400x400 1.png" alt="Slika 1">
+            </div>
+            <h3 class="moji-podnaslovi">Dvorac Janković</h3>
+            <p class="moji-tekstovi">Dvorac Janković u Daruvaru je prekrasan primjer barokne arhitekture koji svojom
+              raskoši i ljepotom privlači brojne posjetitelje...</p>
+
+
+            <i style="float: right; margin-bottom: 20px; margin-right: 20px;" class="fa fa-car fa-2x"></i>
+            <button style="float: left; margin-bottom: 20px;  margin-left: 20px;" href="Dvorac_grofa_Jankovica.html"
+              type="button" class="btn btn-outline-primary"><a href="Dvorac_grofa_Jankovica.html"> Nešto više </a></button>
+
+
+          </div>
+          <div class="col-md-4">
+            <div class="image-container">
+              <img src="Slike/400x400 2.jpg" alt="Slika 2">
+            </div>
+            <h3 class="moji-podnaslovi">Daruvarske toplice</h3>
+            <p class="moji-tekstovi">Daruvarske toplice su popularno turističko odredište u Hrvatskoj koja nudi
+              ljekovite termalne izvore, bogatu wellness ponudu te brojne aktivnosti za opuštanje...</p>
+
+            <i style="float: right; margin-bottom: 20px; margin-right: 20px;" class="fa fa-car fa-2x"></i>
+            <button style="float: left; margin-bottom: 20px;  margin-left: 20px;" type="button"
+              class="btn btn-outline-primary"><a href="Daruvarske_toplice.html"> Nešto više </a></button>
+
+
+          </div>
+          <div class="col-md-4">
+            <div class="image-container">
+
+              <img src="Slike/400x400 3.png" alt="Slika 3">
+            </div>
+            <h3 class="moji-podnaslovi">Centar grada Daruvara</h3>
+            <p class="moji-tekstovi">Centar grada Daruvara je šarmantno područje prepuno povijesnih građevina, kafića i
+              trgovina, koje privlači posjetitelje svojom opuštenom atmosferom...</p>
+
+            <i style="float: right; margin-bottom: 20px; margin-right: 20px;" class="fa fa-car fa-2x"></i>
+            <button style="float: left; margin-bottom: 20px;  margin-left: 20px;" type="button"
+              class="btn btn-outline-primary"><a href="Centar_grada.html"> Nešto više </a></button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <br><br>
+      <div class=" text-center">
+        <br>
+        <h1 class="moj-naslov">Posjetite grad</h1>
+        <br>
+      </div>
+
+      <div style="background-color: lightgrey ;" class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image-container">
+              <br>
+              <br>
+
+              <img style="height: auto; width: 100%;" src="Slike/park-obrađena.jpg ">
+            </div>
+
+
+
+          </div>
+          <div class="col-md-6">
+
+            <h3 class="moji-podnaslovi">Gradski park</h3>
+            <p class="moji-tekstovi">U srcu grada Daruvara, između živahne gradske vreve i svakodnevnih obaveza,
+              prostire se skriveni dragulj - Park grada Daruvara. Kao zeleni otok u središtu urbanog područja, park
+              pruža oazu prirode, mira i ljepote svojim posjetiteljima.
+
+              Dok ulazite u park, dočekuje vas blagi povjetarac i zvukovi cvrkuta ptica, dok vas miris svježe pokošene
+              trave oduševljava. Park je okružen visokim drvećem koje pruža hlad i zaštitu od sunca, idealno za
+              opuštanje na toplim ljetnim danima. Uzduž parka protežu se široke staze, pozivajući vas na opuštene šetnje
+              i istraživanje.
+
+              Uređen u tradicionalnom engleskom stilu, Park grada Daruvara predstavlja spoj prirodnog i pejzažnog
+              dizajna. Cvjetne gredice ispunjene raznobojnim cvijećem izmjenjuju se s mirisnim grmovima i šarenim
+              ukrasnim biljkama, stvarajući slikovite prizore koji se lako urežu u sjećanje. Bašte prepune cvijeća
+              privlače leptire i pčele, oživljavajući prostor zvukom njihovih krila i svijetlim bojama njihovih krila.
+              U parku se nalaze i elegantne klupe i sjedeće garniture, savršene za odmor i uživanje u tišini. Mnogi
+              posjetitelji dolaze u park kako bi proveli vrijeme s obitelji i prijateljima, igrali se na dječjim
+              igralištima ili jednostavno uživali u pikniku na zelenoj livadi. Park također nudi priliku za tjelesnu
+              aktivnost, sa sportskim terenima za košarku, nogomet i druge sportske aktivnosti.
+            </p>
+
+
+
+            <br>
+
+          </div>
+
+        </div>
+      </div>
+      <br>
+
+
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="moji-podnaslovi">Veteranski centar</h3>
+            <p class="moji-tekstovi">Veteranski centar grada Daruvara je važna institucija koja pruža podršku i brigu
+              hrabrim braniteljima koji su sudjelovali u obrani domovine. Smješten u samom srcu grada, veteranski centar
+              je mjesto koje okuplja i pruža brojne usluge veteranima, njihovim obiteljima i zajednici.
+
+              Jedna od ključnih uloga veteranskog centra je pružanje podrške braniteljima u obliku psihološke i
+              socijalne pomoći. Stručni tim psihologa, socijalnih radnika i terapeuta je tu kako bi osigurao emocionalnu
+              podršku, savjetovanje i terapiju veteranima koji se suočavaju s posljedicama ratnih trauma i drugih
+              izazova povezanih s ratom. Osim toga, centar organizira i razne radionice, grupne terapije i aktivnosti
+              koje imaju za cilj poboljšanje kvalitete života branitelja.
+
+              Veteranski centar također pruža informacijsku podršku, pomažući veteranima u ostvarivanju njihovih prava i
+              povlastica. Stručni tim centra pruža potrebne informacije i asistenciju u vezi s mirovinama, zdravstvenim
+              osiguranjem, zapošljavanjem i drugim pravima koja su dostupna braniteljima.e ručku i večeri ili odabrati
+              neki od specijaliteta koji se pripremaju na roštilju. Restoran također ima prekrasnu terasu gdje gosti
+              mogu uživati u obroku na otvorenom uz panoramski pogled na okolne zelene površine.
+            </p>
+
+
+
+
+
+          </div>
+          <div class="col-md-6">
+            <div class="image-container">
+
+              <br>
+
+              <img style="height: auto; width: 100%;" src="Slike/veteranskiCentar-obrađena.jpg " alt="Slika 1">
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <div class="jumbotron" style="margin-bottom: 0; background-color: #f2f2f2;">
+      <div class="container row" style="margin: 0 auto;">
+        <div class="col-sm-4">
+          <h2>O gradu</h2>
+          <p>Daruvar je maleni grad smješten u srcu Hrvatske poznat po svojim termalnim izvorima, ljekovitoj vodi i
+            bogatoj povijesti.</p>
+        </div>
+        <div class="col-sm-4">
+          <h2>Kratki linkovi</h2>
+          <ul class="list-unstyled">
+            <li><a href="Index.html" style="color: #333333;" class="link-dark">Početna</a></li>
+            <li><a href="Dogadjanja.html" style="color: #333333;">Događanja</a></li>
+            <li><a href="Kontaki.html" style="color: #333333;">Kontakt</a></li>
+            <li><a href="Popularne_lokacije.html" style="color: #333333;">Popularne lokacije</a></li>
+            <li><a href="Smještaj.html" style="color: #333333;">Smještaj</a></li>
+            <li><a href="Vodic_kroz_grad.html" style="color: #333333;">Vodić kroz grad</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h2>Kontakti</h2>
+          <ul class="list-inline social-icons">
+            <li><a href="" style="margin: 3px; color: #333333;"><i class="fa fa-facebook-square fa-2x"
+                  aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="#" style="margin: 3px; color: #333333;"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i> Instagram</a></li>
+            <li><a href="#" style="margin: 3px; color: #333333;"><i class="fa fa-twitter-square fa-2x"
+                  aria-hidden="true"></i> Twitter</a></li>
+            <li><a href="#" style="margin: 3px; color: #333333;"><i class="fa fa-pinterest fa-2x"
+                  aria-hidden="true"></i> Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
