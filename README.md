@@ -2,7 +2,7 @@
 
 Ovaj repozitorij sadrži zbirku akademskih projekata, seminarskih radova, praktičnih zadataka i stručne dokumentacije izrađenih tijekom prijediplomskog i diplomskog studija na **Fakultetu organizacije i informatike u Varaždinu (FOI), Sveučilište u Zagrebu**.
 
-##Organizacija repozitorija
+## Organizacija repozitorija
 
 Projekti su organizirani prema razini studija, semestrima i nastavnim predmetima radi jednostavnijeg pregledavanja i pristupa pojedinim radovima.
 
